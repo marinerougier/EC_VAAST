@@ -64,10 +64,12 @@ if(!is_compatible) {
   var database = firebase.database();
 
   // id variables
-  var prolificID = jsPsych.data.getURLVariable("prolificID");
-  if(prolificID == null) {prolificID = "999";}
-  var jspsych_id  = jsPsych.data.getURLVariable("jspsych_id");
-  if(jspsych_id == null) {jspsych_id = "999";}
+  var id  = jsPsych.data.getURLVariable("id");
+  id = id == null ? id : jsPsych.randomization.randomID(15); // assign random id if not provided in URL
+
+  // cond variable
+  var cond  = jsPsych.data.getURLVariable("cond");
+  if (cond == NULL) cond = 'NA';
 
   // Preload images
   var preloadimages = [];
@@ -76,7 +78,7 @@ if(!is_compatible) {
   // This section ensure that we don't lose data. Anytime the 
   // client is disconnected, an alert appears onscreen
   var connectedRef = firebase.database().ref(".info/connected");
-  var connection   = firebase.database().ref("VAAST_3appuis_EC/" + jspsych_id + "/")
+  var connection   = firebase.database().ref("VAAST_3appuis_EC/" + id + "/")
   var dialog = undefined;
   var first_connection = true;
 
@@ -1074,7 +1076,8 @@ if(is_compatible) {
       },
     on_finish: function() {
         saving_browser_events(completion = true);
-        window.location.href = "https://app.prolific.ac";
+	var redirectLink = "https://matschmitz.github.io/evaconddemo.html";
+        window.location.href = redirectLink + "?id=" + id + "&cond=" + cond;
     }
   });
 }
