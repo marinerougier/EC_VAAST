@@ -69,7 +69,7 @@ if(!is_compatible) {
 
   // cond variable
   var cond  = jsPsych.data.getURLVariable("cond");
-  if (cond == NULL) cond = 'NA';
+  if (cond == null) cond = 'NA';
 
   // Preload images
   var preloadimages = [];
