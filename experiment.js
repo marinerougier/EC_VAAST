@@ -490,11 +490,11 @@ var vaast_instructions_3 = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'>Video Game task</h1>" +
-    "<p class='instructions'>At the begining of each trial, you will see the 'O' symbol. " +
-    "This symbol indicates that you have to press the START key (namely the <b>D key</b>) to start the trial. </p>" +
+    "<p class='instructions'>At the beginning of each trial, you will see the 'O' symbol. " +
+    "This symbol indicates that you have to press the START key (namely, the <b>D key</b>) to start the trial. </p>" +
     "<p class='instructions'>Then, you will see a fixation cross (+) at the center of the screen, followed by a face. </p>" +
     "<p class='instructions'>Depending on the background color of the face, your task is to move forward or backward by pressing <b>three times</b>, as fast as you can, " +
-    "the MOVE FORWARD key (namely, the <b>E key</b>) or the MOVE BACKWARD key (namely the <b>C key</b>). After these three key presses, the face will disapear and you will have to "+
+    "the MOVE FORWARD key (namely, the <b>E key</b>) or the MOVE BACKWARD key (namely, the <b>C key</b>). After these three key presses, the face will disappear and you will have to "+
     "press again the START key (D key). " +
     "<p class='instructions'>Please use only the index of your dominant hand for all these actions. </p>" +
     "<br>" +
@@ -511,14 +511,14 @@ var vaast_instructions_4 = {
     "<p class='instructions'>In this section, you have to: " +
     "<ul class='instructions'>" +
     "<li><strong>APPROACH faces with a " + group_to_approach_1 + " background </strong></li>" +
-    "<strong>by pressing the MOVE FORWARD key (namely the E key) </strong>" +
+    "<strong>by pressing the MOVE FORWARD key (namely, the E key) </strong>" +
     "<br>" +
     "<br>" +
     "<li><strong>AVOID faces with a " + group_to_avoid_1 + " background </strong></li>" +
-    "<strong>by pressing the the MOVE BACKWARD key (namely the C key)</strong>" +
+    "<strong>by pressing the the MOVE BACKWARD key (namely, the C key)</strong>" +
     "</ul>" +
     "<p class='instructions'>Please read carefully and make sure that you memorize the instructions above. </p>" +
-    "<p class='instructions'><strong>Also, note that is it EXTREMLY IMPORTANT that you try to be as fast and accurate as you can. </strong>" +
+    "<p class='instructions'><strong>Also, note that is it EXTREMELY IMPORTANT that you try to be as fast and accurate as you can. </strong>" +
     "A red cross will appear if your response is incorrect. </p>" +
     "<br>" +
     "<p class ='instructions'>Let's now start with a training phase!</p>" +
@@ -537,12 +537,12 @@ var vaast_instructions_5 = {
     "<ul class='instructions'>" +
      "<li>" +
       "<strong>APPROACH faces with a " + group_to_approach_1 + " background </strong>" +
-      "<strong>by pressing the MOVE FORWARD key (namely the E key)</strong>" +
+      "<strong>by pressing the MOVE FORWARD key (namely, the E key)</strong>" +
      "</li>" +
      "<br>" +
      "<li>" +
       "<strong>AVOID faces with a " + group_to_avoid_1 + " background </strong>" +
-      "<strong>by pressing the the MOVE BACKWARD key (namely the C key)</strong>" +
+      "<strong>by pressing the the MOVE BACKWARD key (namely, the C key)</strong>" +
      "</li>" +
     "</ul>" +
     "<br>" +
@@ -558,14 +558,14 @@ var vaast_instructions_6 = {
     "<p class='instructions'><b>Warning! Instructions are changing. </b><br><br>In this section, you have to: " +
     "<ul class='instructions'>" +
     "<li><strong>APPROACH faces with a " + group_to_approach_2 + " background </strong></li>" +
-    "<strong>by pressing the MOVE FORWARD key (namely the E key) </strong>" +
+    "<strong>by pressing the MOVE FORWARD key (namely, the E key) </strong>" +
     "<br>" +
     "<br>" +
     "<li><strong>AVOID faces with a " + group_to_avoid_2 + " background </strong></li>" +
-    "<strong>by pressing the the MOVE BACKWARD key (namely the C key)</strong>" +
+    "<strong>by pressing the the MOVE BACKWARD key (namely, the C key)</strong>" +
     "</ul>" +
     "<p class='instructions'>Please read carefully and make sure that you memorize the instructions above. </p>" +
-    "<p class='instructions'><strong>Also, note that is it EXTREMLY IMPORTANT that you try to be as fast and accurate as you can. </strong>" +
+    "<p class='instructions'><strong>Also, note that is it EXTREMELY IMPORTANT that you try to be as fast and accurate as you can. </strong>" +
     "A red cross will appear if your response is incorrect. </p>" +
     "<br>" +
     "<p class ='instructions'>Let's now start with a training phase!</p>" +
@@ -584,12 +584,12 @@ var vaast_instructions_7 = {
     "<ul class='instructions'>" +
      "<li>" +
       "<strong>APPROACH faces with a " + group_to_approach_2 + " background </strong>" +
-      "<strong>by pressing the MOVE FORWARD key (namely the E key)</strong>" +
+      "<strong>by pressing the MOVE FORWARD key (namely, the E key)</strong>" +
      "</li>" +
      "<br>" +
      "<li>" +
       "<strong>AVOID faces with a " + group_to_avoid_2 + " background </strong>" +
-      "<strong>by pressing the the MOVE BACKWARD key (namely the C key)</strong>" +
+      "<strong>by pressing the the MOVE BACKWARD key (namely, the C key)</strong>" +
      "</li>" +
     "</ul>" +
     "<br>" +
