@@ -117,7 +117,8 @@ if(!is_compatible) {
 // Variable input -----------------------------------------------------------------------
 // Variable used to define experimental condition : approached color and group associated with the color
 
-var vaast_condition_approach = jsPsych.randomization.sampleWithoutReplacement(["approach_blue", "approach_yellow"], 1)[0];var ColorGroup   = jsPsych.randomization.sampleWithoutReplacement(["G1Y", "G1B"], 1)[0];
+var vaast_condition_approach = jsPsych.randomization.sampleWithoutReplacement(["approach_blue", "approach_yellow"], 1)[0];
+var ColorGroup   = cond.substring(0, 3);
 
  // cursor helper functions
 var hide_cursor = function() {
@@ -354,6 +355,7 @@ var next_position = function(){
         .set({id: id,
                ApproachedColor: vaast_condition_approach,
                ColorGroup: ColorGroup,
+               cond: cond,
                timestamp: firebase.database.ServerValue.TIMESTAMP})
   }
 
@@ -365,6 +367,7 @@ var next_position = function(){
         .set({id: id,
           ApproachedColor: vaast_condition_approach,
           ColorGroup: ColorGroup,
+          cond: cond,
           timestamp: firebase.database.ServerValue.TIMESTAMP,
           vaast_trial_data: jsPsych.data.get().last(4).json()})
   }
@@ -380,6 +383,7 @@ var next_position = function(){
       timestamp: firebase.database.ServerValue.TIMESTAMP,
       ApproachedColor: vaast_condition_approach,
       ColorGroup: ColorGroup,
+      cond: cond,
       completion: completion,
       event_data: jsPsych.data.getInteractionData().json()})
   }
