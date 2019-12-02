@@ -351,8 +351,7 @@ var next_position = function(){
      database
         .ref("participant_id_3appuis_EC/")
         .push()
-        .set({jspsych_id: jspsych_id,
-               prolificID: prolificID,
+        .set({id: id,
                ApproachedColor: vaast_condition_approach,
                ColorGroup: ColorGroup,
                timestamp: firebase.database.ServerValue.TIMESTAMP})
@@ -363,8 +362,7 @@ var next_position = function(){
     database
       .ref("vaast_trial_3appuis_EC/").
       push()
-        .set({jspsych_id: jspsych_id,
-          prolificID: prolificID,
+        .set({id: id,
           ApproachedColor: vaast_condition_approach,
           ColorGroup: ColorGroup,
           timestamp: firebase.database.ServerValue.TIMESTAMP,
@@ -378,8 +376,7 @@ var next_position = function(){
     database
      .ref("browser_event_3appuis_EC/")
      .push()
-     .set({jspsych_id: jspsych_id,
-      prolificID: prolificID,
+     .set({id: id,
       timestamp: firebase.database.ServerValue.TIMESTAMP,
       ApproachedColor: vaast_condition_approach,
       ColorGroup: ColorGroup,
