@@ -429,7 +429,7 @@ var save_vaast_trial = {
 // Switching to fullscreen --------------------------------------------------------------
 var fullscreen_trial = {
   type: 'fullscreen',
-  message:  'To start the study, please switch to fullscreen </br></br>',
+  message:  'Please switch to fullscreen to continue with the second part of this study.</br></br>',
   button_label: 'Switch to fullscreen',
   fullscreen_mode: true
 }
