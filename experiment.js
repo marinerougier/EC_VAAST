@@ -65,7 +65,7 @@ if(!is_compatible) {
 
   // id variables
   var id  = jsPsych.data.getURLVariable("id");
-  id = id == null ? id : jsPsych.randomization.randomID(15); // assign random id if not provided in URL
+  id = id == null ? jsPsych.randomization.randomID(15) : id; // assign random id if not provided in URL
 
   // cond variable
   var cond  = jsPsych.data.getURLVariable("cond");
