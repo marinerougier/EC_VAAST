@@ -851,7 +851,7 @@ var vaast_test_block_1_G1Y = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim_G1Y,
-  repetitions: 1, //here, put 12 for 192 trials
+  repetitions: 3, //here, put 12 for 192 trials
   randomize_order: true,
   data: {
     phase:    "test",
@@ -893,7 +893,7 @@ var vaast_test_block_2_G1Y = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim_G1Y,
-  repetitions: 1, //here, put 12 for 192 trials
+  repetitions: 3, //here, put 12 for 192 trials
   randomize_order: true,
   data: {
     phase:    "test",
@@ -936,7 +936,7 @@ var vaast_test_block_1_G1B = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim_G1B,
-  repetitions: 1, //here, put 12 for 192 trials
+  repetitions: 3, //here, put 12 for 192 trials
   randomize_order: true,
   data: {
     phase:    "test",
@@ -978,7 +978,7 @@ var vaast_test_block_2_G1B = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim_G1B,
-  repetitions: 1, //here, put 12 for 192 trials
+  repetitions: 3, //here, put 12 for 192 trials
   randomize_order: true,
   data: {
     phase:    "test",
